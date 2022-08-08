@@ -36,18 +36,18 @@ namespace C__Basics_Assignment
                 {
                     Console.WriteLine(val + 2);
                 }
-                catch(OverflowException e)
+                catch (OverflowException e)
                 {
                     Console.WriteLine(e.Message);
                 }
             }
             //Type Conversion
             //Implicit
-            //int to long(vice - versa)
+            //int to long
             int var1 = 50;
             long var2 = var1;
-            Console.WriteLine(var1+" "+var2);
-            //char to ASCII int (vice versa)
+            Console.WriteLine(var1 + " " + var2);
+            //char to ASCII int
             char ch1 = 'A';
             int ascii = ch1;
             Console.WriteLine(ascii);
@@ -55,10 +55,10 @@ namespace C__Basics_Assignment
             //string to int (vice-versa)
             string str1 = "10";
             int val1 = Convert.ToInt32(str1);
-            Console.WriteLine(str1+" "+val1);
+            Console.WriteLine(str1 + " " + val1);
             int val2 = 20;
             string str2 = Convert.ToString(val2);
-            Console.WriteLine(val2+" "+str2);
+            Console.WriteLine(val2 + " " + str2);
             //string to long (vice-versa)
             long val3 = Convert.ToInt64(str1);
             Console.WriteLine(str1 + " " + val3);
@@ -86,6 +86,27 @@ namespace C__Basics_Assignment
             bool val10 = false;
             string str9 = Convert.ToString(val10);
             Console.WriteLine(val10 + " " + str9);
+            //Use Operators (+,-,*,/,%, |,^,&) and print results
+            int x = 10;
+            int y = 20;
+            int z = x + y;
+            Console.Write(z + " ");
+            z = y - x;
+            Console.Write(z + " ");
+            z = x * y;
+            Console.Write(z + " ");
+            z = y / x;
+            Console.Write(z + " ");
+            z = x % y;
+            Console.Write(z + " ");
+            z = y | x;
+            Console.Write(z + " ");
+            z = x ^ y;
+            Console.Write(z + " ");
+            z = x & y;
+            Console.WriteLine(z + " ");
+
+
         }
     }
 }
