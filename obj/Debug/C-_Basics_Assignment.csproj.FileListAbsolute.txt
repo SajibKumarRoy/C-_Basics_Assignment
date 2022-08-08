@@ -1,0 +1,8 @@
+C:\Users\BS984\source\repos\C-_Basics_Assignment\bin\Debug\C-_Basics_Assignment.exe.config
+C:\Users\BS984\source\repos\C-_Basics_Assignment\bin\Debug\C-_Basics_Assignment.exe
+C:\Users\BS984\source\repos\C-_Basics_Assignment\bin\Debug\C-_Basics_Assignment.pdb
+C:\Users\BS984\source\repos\C-_Basics_Assignment\obj\Debug\C-_Basics_Assignment.csproj.AssemblyReference.cache
+C:\Users\BS984\source\repos\C-_Basics_Assignment\obj\Debug\C-_Basics_Assignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\BS984\source\repos\C-_Basics_Assignment\obj\Debug\C-_Basics_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\BS984\source\repos\C-_Basics_Assignment\obj\Debug\C-_Basics_Assignment.exe
+C:\Users\BS984\source\repos\C-_Basics_Assignment\obj\Debug\C-_Basics_Assignment.pdb
