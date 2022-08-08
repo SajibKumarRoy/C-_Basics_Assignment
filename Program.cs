@@ -133,6 +133,9 @@ namespace C__Basics_Assignment
             {
                 Console.WriteLine("p is the smallest");
             }
+            //Use ternary logical operators
+            var result = x > y ? "x is greater than y" : "x is less than y";
+            Console.WriteLine(result);
         }
     }
 }
