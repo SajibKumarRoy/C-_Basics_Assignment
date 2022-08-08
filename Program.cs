@@ -105,7 +105,20 @@ namespace C__Basics_Assignment
             Console.Write(z + " ");
             z = x & y;
             Console.WriteLine(z + " ");
-
+            //Use if,if else, else if
+            int time = 22;
+            if (time < 10)
+            {
+                Console.WriteLine("Good morning.");
+            }
+            else if (time < 20)
+            {
+                Console.WriteLine("Good day.");
+            }
+            else
+            {
+                Console.WriteLine("Good evening.");
+            }
 
         }
     }
