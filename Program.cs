@@ -121,11 +121,11 @@ namespace C__Basics_Assignment
             }
             //Use more operators like(&&, || ) inside conditional operators
             int p = 1, q = 2, r = 3;
-            if(r<p||r<q)
+            if (r < p || r < q)
             {
                 Console.WriteLine("r is not the largest");
             }
-            else if(q>r&&q>p)
+            else if (q > r && q > p)
             {
                 Console.WriteLine("q is the largest");
             }
@@ -136,6 +136,44 @@ namespace C__Basics_Assignment
             //Use ternary logical operators
             var result = x > y ? "x is greater than y" : "x is less than y";
             Console.WriteLine(result);
+            //Use Different types of comments
+            //Single Line Comment
+            // Hello World Program
+            //Multi Line Comment
+            /*
+	         This is a Hello World Program in C#.
+	         This program prints Hello World.
+             */
+            //For, While, Do while, Foreach, continue & break (print 1-100, skip at 95, break at 99)
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i == 95)
+                    continue;
+                if (i == 99)
+                    break;
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+            int j = 0;
+            while (++j<= 100)
+            {
+                if (j == 95)
+                    continue;
+                if (j == 99)
+                    break;
+                Console.Write(j + " ");
+            }
+            Console.WriteLine();
+            int k = 1;
+            do
+            {
+                if (k == 95)
+                    continue;
+                if (k == 99)
+                    break;
+                Console.Write(k + " ");
+            } while (++k <= 100);
+            Console.WriteLine();
         }
     }
 }
