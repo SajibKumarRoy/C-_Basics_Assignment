@@ -119,7 +119,20 @@ namespace C__Basics_Assignment
             {
                 Console.WriteLine("Good evening.");
             }
-
+            //Use more operators like(&&, || ) inside conditional operators
+            int p = 1, q = 2, r = 3;
+            if(r<p||r<q)
+            {
+                Console.WriteLine("r is not the largest");
+            }
+            else if(q>r&&q>p)
+            {
+                Console.WriteLine("q is the largest");
+            }
+            else if (p < r && q > p)
+            {
+                Console.WriteLine("p is the smallest");
+            }
         }
     }
 }
