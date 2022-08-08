@@ -27,6 +27,20 @@ namespace C__Basics_Assignment
             Console.WriteLine(ch);
             string name = "Sajib Kumar Roy";
             Console.WriteLine(name);
+            //Overflow Exception Handling
+            checked
+            {
+                int val = int.MaxValue;
+                Console.WriteLine(val);
+                try
+                {
+                    Console.WriteLine(val + 2);
+                }
+                catch(OverflowException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
 
         }
     }
