@@ -174,6 +174,20 @@ namespace C__Basics_Assignment
                 Console.Write(k + " ");
             } while (++k <= 100);
             Console.WriteLine();
+            //Switch case 
+            switch (time)
+            {
+                case int d when d < 10:
+                    Console.WriteLine("Good morning");
+                    break;
+                case int d when d < 20:
+                    Console.WriteLine("Good day");
+                    break;
+                default:
+                    Console.WriteLine("Good evening");
+                    break;
+
+            }
         }
     }
 }
